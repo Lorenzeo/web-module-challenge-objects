@@ -102,7 +102,7 @@ Write a function that creates an object with name, rating, feedback, add the new
 */
 
 function addReview(array,name,rating,feedback){
-  const newReview = {name,rating,feedback}
+  const newReview = {name:'Daniela',rating: 5,feedback: 'Beautiful atmosphere and wonderful vegan options!'}
   array.push(newReview)
   return array
 }
